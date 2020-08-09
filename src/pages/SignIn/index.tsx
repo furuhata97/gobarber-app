@@ -72,7 +72,11 @@ const SignIn: React.FC = () => {
         Alert.alert(
           'Erro de autenticação',
           'Ocorreu um erro ao fazer login. Cheque as credenciais',
-          [],
+          [
+            {
+              text: 'OK',
+            },
+          ],
         );
       }
     },
